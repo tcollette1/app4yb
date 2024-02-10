@@ -1,0 +1,157 @@
+html { 
+	min-height: 100%;
+}
+body {	background-image:-webkit-linear-gradient(#33fbec, #eee);
+	background-image:-moz-linear-gradient(#33fbec, #eee);
+	background-image:-ms-linear-gradient(#33fbec, #eee);
+	background-repeat:no-repeat;
+	font-family: Lucida Grande, Calibri, sans-serif;
+	font-size:14px;
+}
+#wrap { width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 4px
+}
+#title_list { width: 240px;
+	float:left
+}
+#story_list { width: 711px;
+	float:left;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	padding: 4px
+}
+#header {
+	background-image:-webkit-linear-gradient(#eee,#bbb);
+	background-image:-moz-linear-gradient(#eee,#bbb);
+	background-image:-ms-linear-gradient(#eee,#bbb);
+	padding: 4px
+}
+.gradientBox {
+	padding: 10px;
+	background-color: white;
+	/* outer shadows  (note the rgba is red, green, blue, alpha) */
+box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+	border-radius: 7px;
+	/* gradients */
+background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5));
+	background: -moz-linear-gradient(top, white 0%, white 15%, #D5E4F3 100%);
+}
+h3, h4 { color: #ff0000;
+font-size: 1.1em;
+}
+h3.tutorial {
+	font-family: -apple-system, BlinkMacSystemFont, Verdana, sans-serif;
+	font-size:18px;
+	color: #FFF;
+	text-align: center;
+	margin: 3px;
+	padding: 5px;
+	background-image: url(images/bgfill.gif);
+	border-radius: 7px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color:#03F;
+	text-decoration: underline;
+}
+.text {
+	font-family: -apple-system, BlinkMacSystemFont, Verdana, sans-serif;
+	text-indent: 10px;
+	vertical-align: top;
+	text-align: left;
+	font-size: 90%;
+}
+ul.text {
+	padding-left: 0.2em;
+	list-style-type: none;
+	font-size: 90%;
+}
+pre {
+	font-size:85%;
+}
+.evenrow {
+	background: -webkit-gradient(linear, left top, left bottom, 
+color-stop(0%, #CCC), color-stop(15%, #CCC), color-stop(100%, white));
+	background: -moz-linear-gradient(top, #CCC 0%, #CCC 15%, white 100%);
+	padding:2px
+}
+h3, h4, h5 { margin:2px
+}
+select {
+	padding: 5px;
+	font-size: 14px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	margin: 5px;
+}
+.first_textfield { float:left;
+	width:160px;
+	margin: 10px;
+	padding:4px;
+	background-color: white; 
+	background: -webkit-gradient(linear, left top, left bottom, 
+	color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+	border-radius: 7px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+}
+.textfield { float:left;
+	width:160px;
+	padding:4px;
+	margin: 10px;
+	background-color: white; 
+	background: -webkit-gradient(linear, left top, left bottom, 
+	color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+	border-radius: 7px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+}
+.button {
+	border:0px;
+	border-radius : 7px;
+	box-shadow : 0px 0px 12px rgba(0, 0, 0, 0.4);
+	font-size : 20px;
+	color : #252585;
+	padding : 1px 10px;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f7fa), color-stop(100%,#addbff));
+	background : -moz-linear-gradient(top, #f5f7fa 0%, #addbff 100%);
+	background : -webkit-linear-gradient(top, #f5f7fa 0%, #addbff 100%);
+	background : -o-linear-gradient(top, #f5f7fa 0%, #addbff 100%);
+	background : linear-gradient(top, #f5f7fa 0%, #addbff 100%);
+
+}
+#message {
+	background-color: #FF9;
+	color:green;
+	padding: 9px;
+	width: 480px;
+}
+fieldset {
+	width: 630px;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+	background-color:#fff;
+	margin: 14px;
+}
+legend {
+	padding: 7px;
+	color: white;
+	border-radius: 14px;
+	background-color: teal;
+	font-size: 14px;
+}
+#toc {
+	width: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #a2a9b1;
+}
+.tocnumber {
+	font-weight: bold;
+}
