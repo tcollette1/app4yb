@@ -1,0 +1,1 @@
+**app4yb** is a web application I wrote around 2015-2016 to help high school yearbook teachers keep track of their copy, photo, and page deadlines. It utilizes a mySQL database to store deadline spreadsheets, save copy assignments and photo captions, and alert responsible individuals about missed deadlines.
