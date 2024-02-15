@@ -2,4 +2,4 @@
 
 **Known Issues**
 
-The calendar feature links to an installation of PHP iCalendar, which is not included in this repository, and has not been supported for a decade or more. A more adept coder can perhaps reverse engineer it to accommodate another PHP calendar app.
+The calendar feature links to an installation of PHP iCalendar, which is not included in this repository, and has not been supported for a decade or more. An adept coder can perhaps reverse engineer it to accommodate another PHP calendar app.
